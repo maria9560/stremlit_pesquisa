@@ -8,6 +8,7 @@ def front():
     entrada = st.text_input(
         "Insira as solicitações de serviço (separe por espaço ou vírgula):"
     )
+    st.text("Resultado: ")
 
     if entrada:
         valores = entrada.replace(",", " ").split()
